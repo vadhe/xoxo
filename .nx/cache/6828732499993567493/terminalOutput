@@ -1,0 +1,40 @@
+- [36minfo[39m Loaded env from /Users/aldyfadhe/Desktop/side-projects/xoxo/.env
+- [36minfo[39m Creating an optimized production build...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+- [36minfo[39m Compiled successfully
+- [36minfo[39m Skipping linting
+- [36minfo[39m Checking validity of types...
+- [36minfo[39m Collecting page data...
+- [36minfo[39m Generating static pages (0/5)
+- [36minfo[39m Generating static pages (1/5)
+- [36minfo[39m Generating static pages (2/5)
+- [36minfo[39m Generating static pages (3/5)
+- [36minfo[39m Generating static pages (5/5)
+- [36minfo[39m Finalizing page optimization...
+
+[4mRoute (app)[24m                                [4mSize[24m     [4mFirst Load JS[24m
+┌ ○ /                                      38.3 kB         [32m128 kB[39m
+├ ○ /api/hello                             0 B                [32m0 B[39m
+├ ○ /articles                              1.23 kB        [32m90.8 kB[39m
+└ λ /articles/[slug]                       5.82 kB        [32m82.8 kB[39m
++ First Load JS shared by all              [32m76.9 kB[39m
+  ├ chunks/338-a07c04506d987c29.js         24.4 kB
+  ├ chunks/57793c3a-13c6128a6ca6ca83.js    50.5 kB
+  ├ chunks/main-app-4b41769ed4b17cd0.js    215 B
+  └ chunks/webpack-196287e67fca3b4f.js     1.78 kB
+
+[4mRoute (pages)[24m                              [4mSize[24m     [4mFirst Load JS[24m
+─ ○ /404                                   179 B          [32m86.1 kB[39m
++ First Load JS shared by all              [32m85.9 kB[39m
+  ├ chunks/main-e6a5fa8b5b68df26.js        83.9 kB
+  ├ chunks/pages/_app-cf19b72839cc6ade.js  192 B
+  └ chunks/webpack-196287e67fca3b4f.js     1.78 kB
+
+λ  (Server)  server-side renders at runtime (uses [36mgetInitialProps[39m or [36mgetServerSideProps[39m)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+

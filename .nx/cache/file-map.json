@@ -1,0 +1,627 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.7.4",
+  "deps": {
+    "@heroicons/react": "^2.0.18",
+    "@nx/next": "16.7.4",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@supabase/supabase-js": "^2.33.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.16.5",
+    "i18next": "^23.4.6",
+    "lucide-react": "^0.292.0",
+    "next": "13.4.1",
+    "next-themes": "^0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^13.2.2",
+    "react-intersection-observer": "^9.5.3",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7",
+    "tslib": "^2.3.0",
+    "zustand": "^4.4.1",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "remark-gfm": "^4.0.0",
+    "sharp": "^0.33.0",
+    "@nx/eslint-plugin": "16.7.4",
+    "@nx/jest": "16.7.4",
+    "@nx/js": "16.7.4",
+    "@nx/linter": "16.7.4",
+    "@nx/playwright": "16.7.4",
+    "@nx/react": "16.7.4",
+    "@nx/workspace": "16.7.4",
+    "@playwright/test": "^1.36.0",
+    "@testing-library/react": "14.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.14.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "autoprefixer": "10.4.13",
+    "babel-jest": "^29.4.1",
+    "eslint": "~8.46.0",
+    "eslint-config-next": "13.4.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-playwright": "^0.15.3",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "nx": "16.7.4",
+    "postcss": "8.4.21",
+    "prettier": "^2.6.2",
+    "tailwindcss": "3.3.5",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.1.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "projectFileMap": {
+    "speakable-apps": [
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "7058121612771496435"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12418404401457714107"
+      },
+      {
+        "file": ".nx/cache/6828732499993567493.commit",
+        "hash": "4664556114322093609"
+      },
+      {
+        "file": ".nx/cache/6828732499993567493/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/6828732499993567493/source",
+        "hash": "689106417803867327"
+      },
+      {
+        "file": ".nx/cache/6828732499993567493/terminalOutput",
+        "hash": "8703411955634968068"
+      },
+      {
+        "file": ".nx/cache/d/daemon.log",
+        "hash": "5086288281754436666"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "1359530235156186415"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "13263580152492620076"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "8401013789003357112"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/project-graph.html",
+        "hash": "17036869540637447991"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/3rdpartylicenses.txt",
+        "hash": "5667550289807473445"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/environment.js",
+        "hash": "12554684751932158738"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/main.js",
+        "hash": "8350627095314731029",
+        "deps": [
+          [
+            "npm:util",
+            "dynamic"
+          ]
+        ]
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/polyfills.js",
+        "hash": "7278893177824834998"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/runtime.js",
+        "hash": "9652903316845995179"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/styles.css",
+        "hash": "2125456314194136822"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/styles.js",
+        "hash": "13596360365094399219"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "13551510934502704670"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "4307050345945754021"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "13385200756027107794"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/6828732499993567493",
+        "hash": "8703411955634968068"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "8865097869854018350"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "14477814476359713685"
+      },
+      {
+        "file": "@/components/ui/button.tsx",
+        "hash": "3857540855090621730",
+        "deps": [
+          "npm:react",
+          "npm:@radix-ui/react-slot",
+          "npm:class-variance-authority"
+        ]
+      },
+      {
+        "file": "@/components/ui/input.tsx",
+        "hash": "6028477967091604276",
+        "deps": [
+          "npm:react"
+        ]
+      },
+      {
+        "file": "@/components/ui/separator.tsx",
+        "hash": "4528002062869491737",
+        "deps": [
+          "npm:react",
+          "npm:@radix-ui/react-separator"
+        ]
+      },
+      {
+        "file": "@/lib/utils.ts",
+        "hash": "4410618641919237161",
+        "deps": [
+          "npm:clsx",
+          "npm:tailwind-merge"
+        ]
+      },
+      {
+        "file": "README.md",
+        "hash": "17318814882648725388"
+      },
+      {
+        "file": "app/api/hello/route.ts",
+        "hash": "495073956729887886"
+      },
+      {
+        "file": "app/articles/[slug]/page.tsx",
+        "hash": "15015663840638204422",
+        "deps": [
+          "npm:lucide-react",
+          "npm:next",
+          "npm:react-markdown",
+          "npm:remark-gfm"
+        ]
+      },
+      {
+        "file": "app/articles/page.tsx",
+        "hash": "17006843123489024966",
+        "deps": [
+          "npm:next"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/About.tsx",
+        "hash": "14341098654510196615",
+        "deps": [
+          "npm:react",
+          "npm:next",
+          "npm:framer-motion",
+          "npm:react-intersection-observer"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/AnimateLogo.tsx",
+        "hash": "1600847709031622445",
+        "deps": [
+          "npm:framer-motion",
+          "npm:react",
+          "npm:react-intersection-observer"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/BackgroundBlur.tsx",
+        "hash": "13285873969680301408",
+        "deps": [
+          "npm:react"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/Blog.tsx",
+        "hash": "16848319101463358976",
+        "deps": [
+          "npm:react",
+          "npm:next"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/Card.tsx",
+        "hash": "7641894573229311752",
+        "deps": [
+          "npm:next",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/Dictionary.tsx",
+        "hash": "8708157758672763942",
+        "deps": [
+          "npm:react",
+          "npm:react-i18next"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/Features.tsx",
+        "hash": "393590738541689750",
+        "deps": [
+          "npm:react",
+          "npm:framer-motion"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/Footer.tsx",
+        "hash": "15999447221294867162",
+        "deps": [
+          "npm:react",
+          "npm:lucide-react"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/Header.tsx",
+        "hash": "14518141487895044722",
+        "deps": [
+          "npm:react",
+          "npm:next",
+          "npm:framer-motion"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/Navbar.tsx",
+        "hash": "9133265607266603670",
+        "deps": [
+          "npm:lucide-react",
+          "npm:next-themes",
+          "npm:react",
+          "npm:framer-motion",
+          "npm:next"
+        ]
+      },
+      {
+        "file": "app/components/landing-page/NewsCard.tsx",
+        "hash": "11692371383044067314",
+        "deps": [
+          "npm:next",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "app/components/theme/theme-provider.tsx",
+        "hash": "16031558975181557824",
+        "deps": [
+          "npm:react",
+          "npm:next-themes"
+        ]
+      },
+      {
+        "file": "app/globals.css",
+        "hash": "8767396252747546883"
+      },
+      {
+        "file": "app/layout.tsx",
+        "hash": "9012012369840630342",
+        "deps": [
+          "npm:react-i18next",
+          "npm:react",
+          "npm:next",
+          "npm:lucide-react"
+        ]
+      },
+      {
+        "file": "app/lib/dato.ts",
+        "hash": "11277428862094064095",
+        "deps": [
+          "npm:react"
+        ]
+      },
+      {
+        "file": "app/lib/render-component.ts",
+        "hash": "7918587050145005270"
+      },
+      {
+        "file": "app/locales/en.ts",
+        "hash": "18056254686877393694"
+      },
+      {
+        "file": "app/locales/i18n.tsx",
+        "hash": "5066752436133711418",
+        "deps": [
+          "npm:i18next",
+          "npm:react-i18next"
+        ]
+      },
+      {
+        "file": "app/locales/id.ts",
+        "hash": "17672708379122939014"
+      },
+      {
+        "file": "app/locales/initOptions.ts",
+        "hash": "1656348341127551834"
+      },
+      {
+        "file": "app/page.tsx",
+        "hash": "11399318029283076885",
+        "deps": [
+          "npm:next"
+        ]
+      },
+      {
+        "file": "app/store/useWordStore.ts",
+        "hash": "16634694223912615119",
+        "deps": [
+          "npm:zustand"
+        ]
+      },
+      {
+        "file": "app/supabase/supabase.ts",
+        "hash": "6201297441414035607",
+        "deps": [
+          "npm:@supabase/supabase-js"
+        ]
+      },
+      {
+        "file": "app/types/types.ts",
+        "hash": "1513216181168534339"
+      },
+      {
+        "file": "components.json",
+        "hash": "4464048690946690500"
+      },
+      {
+        "file": "env.local.example",
+        "hash": "1146297620553846061"
+      },
+      {
+        "file": "index.d.ts",
+        "hash": "5498222895072842432"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "2043564661297625753"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740",
+        "deps": [
+          "npm:@nx/jest"
+        ]
+      },
+      {
+        "file": "next-env.d.ts",
+        "hash": "5909181270615354023"
+      },
+      {
+        "file": "next.config.js",
+        "hash": "8997565204472478538",
+        "deps": [
+          "npm:@nx/next"
+        ]
+      },
+      {
+        "file": "nx.json",
+        "hash": "2050622379280304691"
+      },
+      {
+        "file": "package.json",
+        "hash": "9553599680998240924",
+        "deps": [
+          "npm:@heroicons/react",
+          "npm:@nx/next",
+          "npm:@radix-ui/react-separator",
+          "npm:@radix-ui/react-slot",
+          "npm:@supabase/supabase-js",
+          "npm:class-variance-authority",
+          "npm:clsx",
+          "npm:framer-motion",
+          "npm:i18next",
+          "npm:lucide-react",
+          "npm:next",
+          "npm:next-themes",
+          "npm:react",
+          "npm:react-dom",
+          "npm:react-i18next",
+          "npm:react-intersection-observer",
+          "npm:tailwind-merge",
+          "npm:tailwindcss-animate",
+          "npm:tslib",
+          "npm:zustand",
+          "npm:react-markdown",
+          "npm:react-syntax-highlighter",
+          "npm:remark-gfm",
+          "npm:sharp",
+          "npm:@nx/eslint-plugin",
+          "npm:@nx/jest",
+          "npm:@nx/js",
+          "npm:@nx/linter",
+          "npm:@nx/playwright",
+          "npm:@nx/react",
+          "npm:@nx/workspace",
+          "npm:@playwright/test",
+          "npm:@testing-library/react",
+          "npm:@types/jest",
+          "npm:@types/node",
+          "npm:@types/react",
+          "npm:@types/react-dom",
+          "npm:@typescript-eslint/eslint-plugin",
+          "npm:@typescript-eslint/parser",
+          "npm:autoprefixer",
+          "npm:babel-jest",
+          "npm:eslint",
+          "npm:eslint-config-next",
+          "npm:eslint-config-prettier",
+          "npm:eslint-plugin-import",
+          "npm:eslint-plugin-jsx-a11y",
+          "npm:eslint-plugin-playwright",
+          "npm:eslint-plugin-react",
+          "npm:eslint-plugin-react-hooks",
+          "npm:jest",
+          "npm:jest-environment-jsdom",
+          "npm:nx",
+          "npm:postcss",
+          "npm:prettier",
+          "npm:tailwindcss",
+          "npm:ts-jest",
+          "npm:ts-node",
+          "npm:typescript"
+        ]
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "10634631026857651442"
+      },
+      {
+        "file": "postcss.config.js",
+        "hash": "2759402739052110475",
+        "deps": [
+          "npm:path"
+        ]
+      },
+      {
+        "file": "project.json",
+        "hash": "6522079836446911764"
+      },
+      {
+        "file": "public/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "public/images/$XOXO.png",
+        "hash": "4821276892315463966"
+      },
+      {
+        "file": "public/images/about-us.png",
+        "hash": "17257863707956393751"
+      },
+      {
+        "file": "public/images/basic-class.png",
+        "hash": "11941206185700501527"
+      },
+      {
+        "file": "public/images/english-competition.png",
+        "hash": "8675170691723727384"
+      },
+      {
+        "file": "public/images/game-night.png",
+        "hash": "17231174403318405373"
+      },
+      {
+        "file": "public/images/logo.svg",
+        "hash": "5555958149442237106"
+      },
+      {
+        "file": "public/images/parallax-1.webp",
+        "hash": "5189772059271675649"
+      },
+      {
+        "file": "public/images/parallax-2.jpeg",
+        "hash": "11212349564657843737"
+      },
+      {
+        "file": "public/images/parallax-3.jpeg",
+        "hash": "8819559233479162308"
+      },
+      {
+        "file": "public/images/reading-class.png",
+        "hash": "2617126431987231900"
+      },
+      {
+        "file": "public/images/speaking-class.png",
+        "hash": "4562279979442258261"
+      },
+      {
+        "file": "public/images/writing-class.png",
+        "hash": "17941177035480112433"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "3945282866700672555",
+        "deps": [
+          "npm:tailwindcss-animate"
+        ]
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "11947313410429495469"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "10791914817938135086"
+      }
+    ],
+    "e2e": [
+      {
+        "file": "e2e/.eslintrc.json",
+        "hash": "3221422119017680556"
+      },
+      {
+        "file": "e2e/playwright.config.ts",
+        "hash": "384171136742806179",
+        "deps": [
+          "npm:@playwright/test",
+          "npm:@nx/playwright",
+          "npm:@nx/devkit"
+        ]
+      },
+      {
+        "file": "e2e/project.json",
+        "hash": "1520799124008781019"
+      },
+      {
+        "file": "e2e/src/example.spec.ts",
+        "hash": "16019101014373124625",
+        "deps": [
+          "npm:@playwright/test"
+        ]
+      }
+    ]
+  }
+}

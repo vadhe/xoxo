@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build",
+    "startTime": "2024-04-19T20:06:29.034Z",
+    "endTime": "2024-04-19T20:07:08.574Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "speakable-apps:build:production",
+      "target": "build",
+      "projectName": "speakable-apps",
+      "hash": "6828732499993567493",
+      "startTime": "2024-04-19T20:06:29.037Z",
+      "endTime": "2024-04-19T20:07:08.573Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
