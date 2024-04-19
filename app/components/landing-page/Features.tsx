@@ -9,6 +9,7 @@ import EnglishCompetition from '../../../public/images/english-competition.png';
 import GameNight from '../../../public/images/game-night.png';
 import { BackgroundBlur } from './BackgroundBlur';
 import { motion } from 'framer-motion';
+import { Button } from '@/components/ui/button';
 const LISTCARDS = [
   {
     title: 'Basic Class',
@@ -59,7 +60,6 @@ export const Features = () => {
         className="px-6 pb-12 text-center relative dark:bg-gray-900 pt-6"
         id="features"
       >
-        <BackgroundBlur />
         <motion.h2
           initial={{ opacity: 0, x: '-70vw' }}
           whileInView={{
@@ -72,9 +72,23 @@ export const Features = () => {
         >
           CONTRACT ADDRESS
         </motion.h2>
-        <div className='flex gap-5 m-auto border-4 border-pink-600 rounded-full z-50 bg-white text-black w-fit p-4'>
-          <p>ATHvNnz88aY1ZmQK28mYjNeWNowpXoyykVdBn9F4Yz2Y</p>
-        </div>
+        <Button className="mt-5 lg:hidden mx-auto flex items-center gap-5 bg-pink-600 z-50">
+          ATHvNnz88aY1ZmQK28mYjNeWNowpXo
+        </Button>
+        <Button className="mt-5 hidden lg:flex mx-auto  items-center gap-5 bg-pink-600 z-50">
+          ATHvNnz88aY1ZmQK28mYjNeWNowpXoyykVdBn9F4Yz2Y
+        </Button>
+
+        <Button
+          onClick={() => {
+            navigator.clipboard.writeText(
+              'ATHvNnz88aY1ZmQK28mYjNeWNowpXoyykVdBn9F4Yz2Y'
+            );
+          }}
+          className=" mt-5 mx-auto flex items-center gap-5 bg-pink-600 z-50"
+        >
+          <span>copy</span>
+        </Button>
       </div>
     </div>
   );
