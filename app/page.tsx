@@ -12,25 +12,7 @@ const About = dynamic(() => import('./components/landing-page/About')as Promise<
  
 
 export const metadata: Metadata = {
-  title: 'SpeakAble Youth',
-  description:
-    ' Join our Community English Discord Server for language enthusiasts and learners. Practice your English, engage in discussions, and connect with like-minded individuals from around the world.',
-  keywords: [
-    'Community',
-    'English',
-    'Discord',
-    ' Server',
-    'Language',
-    'Learning',
-    'Discussion',
-  ],
-  category: 'Website',
-  viewport: 'width=device-width, initial-scale=1.0',
-  authors: [
-    {
-      name: 'SpeakAble Youth',
-    },
-  ],
+  title: '$xoxo',
 };
 
 export default async function Index() {

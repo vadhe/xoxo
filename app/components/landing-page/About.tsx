@@ -11,22 +11,14 @@ export const About = () => {
   const [isTyping, setIsTyping] = useState(false);
 
   const textDesktop = `
-  this community as opposed to using 'Content here,
-  content here', making it look like readable English. 
-  Many desktop publishing packages and web page editors 
-  now use Lorem Ipsum as
-  their default model text,
-  and a search for 'lorem ipsum' will
-  uncover many web sites still in their infancy.
+  Ready to leave ordinary behind? Say yes to 'Exit Liq'
+  and let's take this party to the next level! 
+  🚀 #ExitLiq #AdventureAwaits
   `;
   const textMobile = `
-  his community as opposed to using 'Content here,
-  content here', making it look like readable English. 
-  Many desktop publishing packages and web page editors 
-  now use Lorem Ipsum as
-  their default model text,
-  and a search for 'lorem ipsum' will
-  uncover many web sites still in their infancy.
+  Ready to leave ordinary behind? Say yes to 'Exit Liq'
+  and let's take this party to the next level! 
+  🚀 #ExitLiq #AdventureAwaits
   `;
 
   const containerVariants = {
@@ -53,11 +45,11 @@ export const About = () => {
           viewport={{ once: true }}
           className="font-semibold text-lg lg:text-4xl my-12 mb-24"
         >
-          ABOUT $XOXO
+          ABOUT 
         </motion.h2>
         <div className="lg:grid grid-cols-2 justify-items-center items-center ">
           <div className="z-50 flex justify-center">
-          <Image src="/images/$XOXO.png" width={300}
+          <Image src="/images/$xoxo.svg" width={300}
           height={200} alt={''}/>
           </div>
           <div className="flex flex-col gap-5 z-50 p-4 lg:p-0">
@@ -98,9 +90,8 @@ export const About = () => {
               </motion.div>
             </InView>
             <a href="https://www.pump.fun/ATHvNnz88aY1ZmQK28mYjNeWNowpXoyykVdBn9F4Yz2Y" target="_blank">
-              <Button className="lg:w-1/4 lg:ml-4 w-1/2 mx-auto flex items-center gap-5 bg-blue-600 z-50">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-pill"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg>
-                <span>Buy xoxo</span>
+              <Button className="lg:w-1/4 lg:ml-4 w-1/2 mx-auto flex items-center gap-5 bg-pink-600 z-50">
+                <span>Buy</span>
               </Button>
             </a>
           </div>

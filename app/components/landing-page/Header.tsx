@@ -61,7 +61,7 @@ export const Header = () => {
           WELCOME TO 
         </motion.h1>
         
-          <Image src="/images/$XOXO.png" width={300}
+          <Image src="/images/$xoxo.svg" width={300}
           height={200} alt={''}/>
         <motion.p
           className="lg:text-lg p-4 lg:p-0"
@@ -69,7 +69,7 @@ export const Header = () => {
           animate={controlsDescription}
           initial={{ opacity: 0, x: '100vw' }}
         >
-         this community as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          Escape the ordinary with our exclusive exit liquid. Will you be my exit liq? Discover a new level of refreshment today.
         </motion.p>
         <motion.div
           className="w-full"

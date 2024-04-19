@@ -74,7 +74,6 @@ export const Features = () => {
         </motion.h2>
         <div className='flex gap-5 m-auto border-4 border-pink-600 rounded-full z-50 bg-white text-black w-fit p-4'>
           <p>ATHvNnz88aY1ZmQK28mYjNeWNowpXoyykVdBn9F4Yz2Y</p>
-          <button className='border cursor-pointer bg-red-400 rounded-md px-4 py-1 text-white'>copy</button>
         </div>
       </div>
     </div>
