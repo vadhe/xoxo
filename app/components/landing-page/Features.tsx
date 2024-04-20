@@ -10,49 +10,7 @@ import GameNight from '../../../public/images/game-night.png';
 import { BackgroundBlur } from './BackgroundBlur';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-const LISTCARDS = [
-  {
-    title: 'Basic Class',
-    description:
-      'A class for students who are new to English or who have a very low level of proficiency in English. ',
-    img: BasicClass,
-    bg: 'bg-pink-100',
-  },
-  {
-    title: 'Speaking Class     ',
-    description:
-      'A class that focuses on helping students build their fluency, accuracy, and confidence in English.',
-    img: SpeakingClass,
-    bg: 'bg-green-100',
-  },
-  {
-    title: 'Writing Class    ',
-    description:
-      'A class that focuses on encouraging you to increase your creativity and gain new vocabulary in English.',
-    img: WritingClass,
-    bg: 'bg-sky-100',
-  },
-  {
-    title: 'Reading Class',
-    description:
-      'A class that focuses on teaching students how to read English texts effectively.',
-    img: ReadingClass,
-    bg: 'bg-pink-100',
-  },
-  {
-    title: 'English Competition    ',
-    description:
-      'An event in which participants compete in various English such as open mic night and art showcase.',
-    img: EnglishCompetition,
-    bg: 'bg-green-100',
-  },
-  {
-    title: 'Game Night    ',
-    description: 'An activity to gather people to play games together.',
-    img: GameNight,
-    bg: 'bg-sky-100',
-  },
-];
+
 export const Features = () => {
   return (
     <div className="border-t-4 border-t-red-600">
